@@ -39,16 +39,16 @@ class Owner
     end
   end
 
-  def self.reset_all
-    OWNERS.clear
-  end
-
   def self.all
     OWNERS
   end
 
   def self.count
     OWNERS.size
+  end
+  
+  def self.reset_all
+    OWNERS.clear
   end
 
   def sell_pets
